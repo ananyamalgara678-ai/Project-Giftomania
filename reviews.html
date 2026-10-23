@@ -1,0 +1,312 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giftomania | Reviews</title>
+    <link rel="stylesheet" href="asset/image/style.css">
+    <style>
+        
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #faf4ed;
+    color: #392b30;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Header */
+.header {
+    min-height: 65px;
+    padding: 12px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #fffaf4;
+    border-bottom: 1px solid #eadbd5;
+}
+
+.logo {
+    color: #4a333b;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo small {
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 8px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #392b30;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #b47b83;
+}
+
+/* Heading */
+.review-heading {
+    text-align: center;
+    padding: 65px 20px 35px;
+}
+
+.review-heading > p:first-child {
+    color: #a87980;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.review-heading h1 {
+    font-size: 38px;
+    margin: 15px 0;
+    color: #4a333b;
+}
+
+.line {
+    width: 65px;
+    height: 2px;
+    background-color: #bd9292;
+    margin: 0 auto 18px;
+}
+
+.subtitle {
+    font-size: 15px;
+    color: #79666a;
+}
+
+/* Review Cards */
+.reviews {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 25px 5% 65px;
+}
+
+.review-card {
+    background-color: #fffaf6;
+    width: 300px;
+    padding: 30px 25px;
+    border: 1px solid #eadbd5;
+    border-radius: 5px;
+    box-shadow: 0 5px 18px #392b3010;
+}
+
+.stars {
+    color: #bd9292;
+    font-size: 22px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.message {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #66545a;
+    min-height: 100px;
+}
+
+.customer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+    padding-top: 18px;
+    border-top: 1px solid #eadbd5;
+}
+
+.circle {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #ead7d5;
+    color: #654650;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.customer h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.customer p {
+    color: #a87980;
+    font-size: 12px;
+}
+
+/* Bottom Section */
+.review-footer {
+    text-align: center;
+    padding: 40px 20px 55px;
+    background-color: #f1e4df;
+}
+
+.review-footer h2 {
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.review-footer p {
+    color: #79666a;
+    margin-bottom: 25px;
+}
+
+.review-footer a {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #654650;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.review-footer a:hover {
+    background-color: #8c626d;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fffaf4;
+    font-size: 13px;
+    color: #79666a;
+}
+
+/* Mobile Responsive */
+@media (max-width: 700px) {
+    .header {
+        flex-direction: column;
+    }
+
+    nav {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .review-heading h1 {
+        font-size: 30px;
+    }
+
+    .review-card {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="index.html" class="logo">
+            ♡ Giftomania
+            <small>GIFT WITH LOVE</small>
+        </a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="products.html">Products</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Reviews Heading -->
+    <section class="review-heading">
+        <p>LOVE FROM OUR CUSTOMERS</p>
+        <h1>Customer Reviews</h1>
+        <div class="line"></div>
+        <p class="subtitle">
+            Every gift tells a story, and every smile matters to us.
+        </p>
+    </section>
+
+    <!-- Review Cards -->
+    <section class="reviews">
+
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="message">
+                "Beautiful gifts and lovely packaging.
+                Everything looked elegant and special."
+            </p>
+            <div class="customer">
+                <div class="circle">A</div>
+                <div>
+                    <h3> Aditi Sharma </h3>
+                    <p>Happy Customer</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="message">
+                "I loved the collection! The gift was perfect
+                for my special occasion."
+            </p>
+            <div class="customer">
+                <div class="circle">R</div>
+                <div>
+                    <h3> Riya Mehta </h3>
+                    <p>Happy Customer</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="message">
+                "Such a sweet gifting experience.
+                The presentation was simple and classy."
+            </p>
+            <div class="customer">
+                <div class="circle">S</div>
+                <div>
+                    <h3> Simran Jain </h3>
+                    <p>Happy Customer</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Bottom Message -->
+    <section class="review-footer">
+        <h2>Made with Love, Gifted with Joy ♡</h2>
+        <p>Thank you for being a part of Giftomania.</p>
+        <a href="product.html">Explore Our Gifts</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Giftomania | Gift with Love</p>
+    </footer>
+
+</body>
+</html>

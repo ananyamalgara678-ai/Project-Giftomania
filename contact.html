@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Giftomania</title>
+    <link rel="stylesheet" href="asset/image/style.css">
+    <style>
+        
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f2;
+    color: #49343d;
+}
+
+header {
+    background-color: #fffaf5;
+    padding: 18px 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #eadbd8;
+}
+
+header h2 {
+    font-family: Georgia, serif;
+    color: #82566b;
+}
+
+nav a {
+    text-decoration: none;
+    color: #49343d;
+    margin-left: 18px;
+    font-size: 13px;
+}
+
+nav a:hover {
+    color: #9b687e;
+} 
+
+.contact-banner {
+    padding: 35px 6%;
+    background-color: #f3e3e3;
+    background-image: linear-gradient(
+        120deg, #f8ece7, #985877
+    );
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.contact-banner h1 {
+    font-family: Georgia, serif;
+    font-size: 35px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.contact-banner p {
+    font-size: 13px;
+    margin-top: 5px;
+    align-items: center;
+    
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+    gap: 35px;
+    padding: 35px 6%;
+}
+
+.contact-info h2 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+.contact-info > p {
+    font-size: 13px;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+/* .gift-photo {
+    margin-top: 25px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.gift-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.contact-form {
+    background-color: #f5e9e4;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #e8d8d5;
+    border-radius: 5px;
+    background-color: #fffaf6;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 13px;
+    background-color: #80546a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #694154;
+}
+
+.office {
+    margin-top: 22px;
+    padding: 15px;
+    background-color: #fff8f2;
+    border-radius: 8px;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.office h3 {
+    font-family: Georgia, serif;
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e8d1dc;
+    color: #674454;
+    font-family: Georgia, serif;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    nav a {
+        margin: 0;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+        padding: 25px 5%;
+    }
+
+    .contact-banner h1 {
+        font-size: 28px;
+    
+    }
+}
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>♡ Giftomania</h2>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="products.html">Products</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="contact-banner">
+    <h1>Get in Touch</h1>
+    <!-- <p>Have a question, feedback or need help?</p>
+     <p>We're here for you!</p> -->
+    
+</section>
+
+<section class="contact-container">
+    <div class="left">
+
+    <div class="contact-info">
+        <h2>Let's Talk</h2>
+        <p>We would love to help you find the perfect gift.</p>
+
+        <p>☎ &nbsp; +91 98765 43210</p>
+        <p>✉ &nbsp; hello@giftomania.com</p>
+        <p>⌖ &nbsp; 123, Green Park, Jaipur, Rajasthan</p>
+        <p>◷ &nbsp; Mon - Sat, 10:00 AM - 7:00 PM</p>
+
+        <!-- <div class="gift-photo">
+            <img src="image1.png" alt="Beautiful gift arrangement">
+        </div> -->
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.631362302928!2d74.61131977520824!3d26.467609176915268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396be700496fc733%3A0x8d1eceb5416d48a8!2sGiftomania%20%7C%20Best%20Gift%20Shop%20in%20Ajmer%20%7C%20Gifts%20for%20Freinds%20and%20Love!5e0!3m2!1sen!2sin!4v1792642086196!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+    </div>
+    </div>
+    <div class="right">
+
+    <div class="contact-form">
+        <form action="mailto:hello@giftomania.com"
+              method="post" enctype="text/plain">
+
+            <label>Your Name *</label>
+            <input type="text" name="Name"
+                   placeholder="Enter your name" required>
+
+            <label>Email Address *</label>
+            <input type="email" name="Email"
+                   placeholder="Enter your email" required>
+
+            <label>Message *</label>
+            <textarea name="Message" rows="5"
+                      placeholder="Write your message..."
+                      required></textarea>
+
+            <button type="submit">Send Message →</button>
+        </form>
+       
+
+        <div class="office">
+            <h3>Our Office</h3>
+            <p>123, Green Park, Jaipur, Rajasthan</p>
+            <p>Visit us for your special gifting needs!</p>
+        </div>
+         </div>
+    </div>
+
+</section>
+
+
+<footer>
+    <p>♡ &nbsp; Small Gifts. Big Smiles. &nbsp; ♡</p>
+    <p>© 2026 Giftomania. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
