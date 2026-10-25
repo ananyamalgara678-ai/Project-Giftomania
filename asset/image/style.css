@@ -34,6 +34,13 @@ img {
     border-bottom: 1px solid #eadbd5;
 }
 
+.logo {
+    color: #4a333b;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    white-space: nowrap;
+}
 
 .logo span {
     font-size: 18px;
