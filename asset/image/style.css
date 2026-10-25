@@ -5,24 +5,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-:root{
-    --primary:#a65e46;
-    --secondary:#a8b5a;
-    --accent:#514238;
-    --background:#f3ebdd;
-    --surface:#ffffff;
-    --text:#514238;
-    --text-light:#85796d;
-    --border:#ddd0be;
-    
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    background-color: var(--background);
-    color: var(--text);
+    background-color: white;
+    color: #392b30;
     font-family: Georgia, "Times New Roman", serif;
     /* width: 90%; */
 }
@@ -40,17 +30,10 @@ img {
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    background-color: var(--primary);
+    background-color: #fffaf4;
     border-bottom: 1px solid #eadbd5;
 }
 
-.logo {
-    color: #4a333b;
-    text-decoration: none;
-    font-size: 22px;
-    font-weight: bold;
-    white-space: nowrap;
-}
 
 .logo span {
     font-size: 18px;
