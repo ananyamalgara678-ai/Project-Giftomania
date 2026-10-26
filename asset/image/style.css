@@ -5,6 +5,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --primary:#8b5e5a;
+    --secondary:#d9a5a0;
+    --accent:#d9a5a0;
+    --background:#fffaf5;
+    --surface:#ffffff;
+    --text:#3d2927;
+    --text-light:#8a706c;
+    --border:#ead8d3;
+    --shadow:0 4px 15px rgba(90,53,50,0.10);
+    --pink-light:#f5e3e0;
+    --cream:#fff1e9;
+    --brown-dark:#402724;
+}
 
 html {
     scroll-behavior: smooth;
@@ -31,6 +45,7 @@ img {
     justify-content: space-between;
     gap: 20px;
     background-color: #fffaf4;
+     background-color: var(--background);
     border-bottom: 1px solid #eadbd5;
 }
 
@@ -60,6 +75,7 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    
 }
 
 nav a {
