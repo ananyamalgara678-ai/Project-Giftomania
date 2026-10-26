@@ -22,49 +22,6 @@ body {
     height: 100px;
 }
 
-/* Header */
-.header {
-    min-height: 65px;
-    padding: 12px 5%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    background-color: #fffaf4;
-    border-bottom: 1px solid #eadbd5;
-}
-
-.logo {
-    color: #4a333b;
-    font-size: 22px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.logo small {
-    display: block;
-    font-family: Arial, sans-serif;
-    font-size: 8px;
-    letter-spacing: 2px;
-    text-align: center;
-}
-
-nav {
-    display: flex;
-    gap: 22px;
-    flex-wrap: wrap;
-}
-
-nav a {
-    color: #392b30;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-nav a:hover {
-    color: #b47b83;
-}
-
 /* Heading */
 .review-heading {
     text-align: center;
@@ -105,10 +62,10 @@ nav a:hover {
 }
 
 .review-card {
-    background-color: #fffaf6;
+    background-color: #bd9292;
     width: 300px;
     padding: 30px 25px;
-    border: 1px solid #eadbd5;
+    border: 2px solid #c59480;
     border-radius: 5px;
     box-shadow: 0 5px 18px #392b3010;
 }
@@ -232,18 +189,24 @@ footer {
 <body>
       <!-- Header -->
     <header class="header">
-        <a href="index.html" class="logo">
-            ♡ Giftomania
+        <a href="#home" class="logo">
+            <span>♡</span> Giftomania
             <small>GIFT WITH LOVE</small>
         </a>
 
         <nav>
-            <a href="index.html">Home</a>
+            <a href="home.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="products.html">Products</a>
             <a href="reviews.html">Reviews</a>
             <a href="contact.html">Contact</a>
         </nav>
+
+        <div class="header-icons">
+            <span>⌕</span>
+            <span>♙</span>
+            <span>♧</span>
+        </div>
     </header>
 
     <!-- Reviews Heading -->
